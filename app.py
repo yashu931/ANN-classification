@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import scikit-learn as sklearn
 from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
 import pandas as pd
 import pickle
@@ -68,5 +69,6 @@ if prediction_proba > 0.5:
     st.write('The customer is likely to churn.')
 else:
     st.write('The customer is not likely to churn.')
+
 
 
