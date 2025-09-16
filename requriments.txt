@@ -5,4 +5,5 @@ scikit-learn
 tensorboard
 matplotlib
 streamlit
+from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
 
