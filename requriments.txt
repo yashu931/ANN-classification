@@ -1,9 +1,8 @@
-tensorflow==2.13.0
+tensorflow==2.15.0
 pandas 
-numpy
+numpy 
 scikit-learn
 tensorboard
 matplotlib
 streamlit
-from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
-
+scikeras
